@@ -13,8 +13,8 @@ body {
     margin: auto;
     margin-top: 120px;
     inset: 0;
-    width: 300px;
-    height: 700px;
+    width: 332px;
+    height: 720px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,6 +25,7 @@ h1 {
     font-size: 3em;
     width: 332px;
     color: #86CC2D;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -51,7 +52,7 @@ h2 {
 
 
 .status-board {
-    width: 300px;
+    width: 332px;
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@ button {
 }
 
 .turns {
-    width: 300px;
+    width: 332px;
     display: flex;
     justify-content: space-around;
 }
