@@ -43,7 +43,6 @@ function winnerCheck() {
         let b2 = boxes[wins[i][1]].innerHTML;
         let b3 = boxes[wins[i][2]].innerHTML;
         if (b1 != "" && b1 === b2 && b1 === b3) {
-            console.log(`${b1} ${b2} ${b3}`);
             gameState.innerHTML = `${turn} Wins!`;
             gameover = true;
             document.getElementById("btn-reset").style.display = "block";
